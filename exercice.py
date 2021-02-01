@@ -5,18 +5,21 @@
 import math
 
 def square_root(a: float) -> float:
-    return math.sqrt(a)
+    return math.squrt(a)
 
 
 def square(a: float) -> float:
-    return 0.0
+    return a ** 2
 
 
 def average(a: float, b: float, c: float) -> float:
-    return 0.0
+    return sum
 
 
 def to_radians(angle_degs: float, angle_mins: float, angle_secs: float) -> float:
+    degres = angle_degs + (angle_mins / 60) + (angle_secs / 3600)
+    radian = math.radians(degres)
+
     return 0.0
 
 
